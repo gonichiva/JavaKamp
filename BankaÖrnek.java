@@ -1,6 +1,6 @@
 class Main {
   public static void main(String[] args) {
-   String InternetSubeButonu="İnternet Şubesi";
+   String InternetSubeButonu=("İnternet Şubesi");
   double DolarDun = 8.25;
   double DolarBugun = 8.18;
   int vade = 23;
@@ -36,7 +36,7 @@ class Main {
       "Emekli Kredisi",
       "Çiftçi Kredisi",
       "Msb Kredisi"
-     };
+     }
      //foreach 
      for (String kredi: krediler)
      {
