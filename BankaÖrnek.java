@@ -28,7 +28,7 @@ class Main {
    System.out.println(kredi2);
    System.out.println(kredi3);
    System.out.println(kredi4);
-   System.out.println(kredi5)
+   System.out.println(kredi5);
    String[] krediler =
     {
       "Hızlı Kredi",
@@ -36,7 +36,7 @@ class Main {
       "Emekli Kredisi",
       "Çiftçi Kredisi",
       "Msb Kredisi"
-     }
+     };
      //foreach 
      for (String kredi: krediler)
      {
