@@ -1,10 +1,7 @@
 package interfaces;
 
 public interface Logger {
- // Interfaceler, default olarak public olduğu için metod önüne "public" yazılmaz!!
- default void log(String Message){
-
- }
+// Interfaceler, default olarak public olduğu için metod önüne "public" yazılmaz!!
+ 
+       void log(String Message);
 }
-
-
