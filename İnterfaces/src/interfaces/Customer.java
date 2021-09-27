@@ -1,40 +1,44 @@
 package interfaces;
 
 public class Customer {
-    private int id;
-    private String FirstName;
-    private String LastName;
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	
+	//Parametresiz Constructor
+	public Customer() {}
 
-    public Customer(){}
+	//Parametreli Constructor
+	public Customer(int id, String firstName, String lastName) {
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
 
-    public Customer(int id, String Firstname,String LastName){
-        super();
-        this.id = id;
-        this.LastName=LastName;
-        this.FirstName=Firstname;
-    }
+	public int getId() {
+		return id;
+	}
 
-    public String getFirstName() {
-        return FirstName;
-    }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    public void setFirstName(String firstName) {
-        FirstName = firstName;
-    }
+	public String getFirstName() {
+		return firstName;
+	}
 
-    public String getLastName() {
-        return LastName;
-    }
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
 
-    public void setLastName(String lastName) {
-        LastName = lastName;
-    }
+	public String getLastName() {
+		return lastName;
+	}
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
+	
 }
